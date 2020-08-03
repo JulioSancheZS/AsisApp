@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:paddingTop="16dp"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+	android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+	<RelativeLayout
+		android:layout_height="0dp"
+		android:layout_weight="0.5"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:id="@+id/txtNombre"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:text="Nombre"
+			android:textStyle="bold"
+			android:textSize="18sp"
+		/>
+
+		
+			<TextView
+			android:id="@+id/txtFKGrado"
+			android:text="Grado"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@+id/txtNombre"
+				/>
+
+		<TextView
+			android:id="@+id/txtTelefono"
+			android:text="Telefono"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_alignParentRight="true"
+		/>
+
+		<TextView
+			android:id="@+id/txtEmail"
+			android:text="Correo"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_below="@+id/txtTelefono"
+		/>
+
+	
+		</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:layout_weight="0.5">
+
+		<TextView
+			android:id="@+id/status"
+			android:text="Sexo:"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="6dp"
+		/>
+
+			<TextView
+			android:id="@+id/txtSexo"
+			android:text="Sexo"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="6dp"
+			android:layout_toRightOf="@+id/status"
+			android:layout_marginLeft="4dp"
+			android:textStyle="bold"
+		/>
+
+
+		<ImageView
+			android:id="@+id/btnEliminarAlumno"
+			android:layout_height="30dp"
+			android:layout_width="30dp"
+			android:tint="#000"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/delete"
+			android:padding="4dp"
+			android:layout_marginBottom="6dp"
+
+		/>
+
+		<View
+			android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="#e2e2e2"
+			android:layout_alignParentBottom="true"
+		/>
+
+		</RelativeLayout>
+</LinearLayout>

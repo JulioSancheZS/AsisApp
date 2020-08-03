@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:paddingTop="16dp"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+	android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+	<RelativeLayout
+		android:layout_height="0dp"
+		android:layout_weight="0.5"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:id="@+id/txtDescripcioAnioList"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:text="Descripción"
+			android:textStyle="bold"
+			android:textSize="16sp"
+		/>
+
+		<TextView
+			android:id="@+id/txtSemestreList"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Semestre"
+			android:layout_below="@+id/txtDescripcioAnioList"
+		/>
+
+		</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:layout_weight="0.5">
+
+		<ImageView
+		android:id="@+id/btnElimiAnioelec"
+			android:layout_height="30dp"
+			android:layout_width="30dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/delete"
+			android:padding="4dp"
+			android:tint="#000"
+			android:layout_marginBottom="6dp"
+
+		/>
+
+		<View
+			android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="#e2e2e2"
+			android:layout_alignParentBottom="true"
+		/>
+
+		</RelativeLayout>
+</LinearLayout>
