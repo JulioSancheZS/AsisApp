@@ -8,4 +8,4 @@ Servicios web ASMX [Servicios Web](http://backendasisapp.somee.com/webservice.as
 ![Imagen 03](/img/03.png "Catalogos")
 ![Imagen 04](/img/04.png "Catalogos Run")
 ![Imagen 05](/img/05.png "crud Alumnos main")
-![Imagen 06](/img/05.png "vista Alumnos new")
+![Imagen 06](/img/06.png "vista Alumnos new")
