@@ -1,6 +1,8 @@
 # AsisApp
 Aplicación para la clase de tecnología móvil, 1er semestre de 2020 del 5to año.
 
+Xamarin Android 
+c#
 Servicios web ASMX [Servicios Web](http://backendasisapp.somee.com/webservice.asmx)
 
 ![Imagen 01](/img/01.png "Login")
